@@ -1,0 +1,53 @@
+.wrapper-pagination {
+    margin-top: 5px;
+}
+
+.pagination {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.pagination li {
+    list-style: none;
+}
+
+.pagination-back {
+    background-image: url(../images/arrow-back.png);
+    margin-right: 25px;
+}
+
+.pagination-next {
+    background-image: url(../images/arrow-next.png);
+    margin-left: 25px;
+}
+
+.pagination-list {
+    margin-right: 20px;
+}
+
+.pagination-list:nth-last-child(2) {
+    margin-right: 0;
+}
+
+.pagination-link {
+    font-family: 'Roboto';
+    color: #828282;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.pagination-active {
+    color: #219653;
+    font-weight: 700;
+}
+
+.w-h-pagination {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

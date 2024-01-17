@@ -1,0 +1,21 @@
+.back-section {
+    margin-bottom: 45px;
+}
+
+.back-link {
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.back-link::before {
+    content: '';
+    background-image: url(../images/arrow-upward-outline.png);
+    background-size: cover;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}

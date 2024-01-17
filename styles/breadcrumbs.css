@@ -1,0 +1,36 @@
+.breadcrumbs-section {
+    margin-bottom: 30px;
+}
+
+.breadcrumbs {
+    margin: 0 0 0;
+    padding: 0;
+}
+
+.breadcrumbs__item {
+    list-style: none;
+    display: inline;
+}
+
+.breadcrumbs__link {
+    color: #BDBDBD;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.breadcrumbs__link::after {
+    content: '';
+    vertical-align: middle;
+    margin: 0 15px;
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    background-image: url(../images/ellipse.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.breadcrumbs li:last-of-type .breadcrumbs__link::after {
+    content: none;
+}

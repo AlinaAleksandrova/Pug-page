@@ -1,0 +1,9 @@
+@import url(./styles/normalize.css);
+@import url(./fonts/stylesheet.css);
+@import url(./styles/helpers.css);
+@import url(./styles/header.css);
+@import url(./styles/breadcrumbs.css);
+@import url(./styles/back.css);
+@import url(./styles/card-product.css);
+@import url(./styles/pagination.css);
+@import url(./styles/footer.css);

@@ -1,0 +1,16 @@
+header
+    section.section-info-header
+        .wrapper
+            .flex.information
+                a.logo(href='/')
+                div.flex 
+                    a.header-phone(href="tel:89209994350") 8 920 999 43 50
+                    a.header-basket(href='/')
+                    a.header-user(href='/')
+    section 
+        .wrapper 
+            .flex.menu-search
+                nav.main-nav
+                    each name in ['Каталог', 'О проекте', 'Птицы', 'Пожертвования']
+                        a.link(href="#")= name
+                input(type="text" name="search" class="search" placeholder="Поиск")
